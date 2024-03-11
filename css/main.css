@@ -1,25 +1,37 @@
+.hidden {
+    display: none;
+}
+
 h1 {
     font-family: poppins;
     font-size: 128px;
     font-weight: 600;
+    color: white;
 }
 
 h2 {
     font-family: poppins;
     font-size: 48px;
     font-weight: 600;
+    color: white;
 }
 
 h3 {
     font-family: poppins;
     font-size: 24px;
     font-weight: 600;
+    color: white;
 }
 
 p {
     font-family: poppins;
     font-size: 16px;
     font-weight: 400;
+    color: white;
+}
+
+ul {
+    display: inline-flex;
 }
 
 button {
@@ -28,3 +40,15 @@ button {
     font-weight: 300;
     letter-spacing: 48px;
 }
+
+.bg {
+    background-image: url('/img/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+#video {
+    height: 352px;
+}
+
