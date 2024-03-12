@@ -48,7 +48,43 @@ button {
     height: 900px;
 }
 
-#video {
-    height: 352px;
+#logo {
+    margin-top: 32px;
 }
 
+#dashboard-text {
+    margin-top: 54px;
+    text-align: right;
+}
+
+#about-text {
+    margin-top: 54px;
+    text-align: right;
+}
+
+.video-container {
+    position: relative;
+    height: 352px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+#addbox {
+    /* UI Properties */
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    margin-top: 32px;
+    height: 160px;
+}
