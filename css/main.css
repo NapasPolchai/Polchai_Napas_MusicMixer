@@ -63,7 +63,7 @@ button {
 }
 
 .video-container {
-    position: relative;
+    
     height: 352px;
     overflow: hidden;
     border-radius: 16px;
@@ -75,16 +75,101 @@ button {
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+    position: relative;
+    z-index: 1;
 }
 
-#addbox {
-    /* UI Properties */
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+.vid-control {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+    width: 538px;
+    height: 96px;
+    position: absolute;
+    z-index: 10000;
+    backdrop-filter: blur(5px);
+    margin-top: 240px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.addbox {
+    background-color: rgba(255, 255, 255, 0.24);
     border-radius: 16px;
     opacity: 1;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     margin-top: 32px;
     height: 160px;
+    opacity: 100%;
+    display: flex;
+}
+
+.addbox2 {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    margin-top: -160px;
+    height: 160px;
+    opacity: 100%;
+    display: flex;
+}
+
+.plus-sign {
+    justify-content: center;
+    padding: 56px;
+    width: 170px;
+}
+
+#dragheader {
+    margin-top: 32px;
+}
+
+.dragbox {
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+    margin-top: 16px;
+    height: 312px;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-des {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.card-svg {
+    height: 72px;
+    width: auto;
+    margin-top: 16px;
+}
+
+.play-control {
+    margin-left: 24px;
+}
+
+#play {
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+#backward {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    transform: rotateY(180deg);
+}
+
+#forward {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 16px;
 }
