@@ -19,82 +19,84 @@
 
         <section class="grid-con">
             <div class="l-col-start-1 l-col-end-7 video-container">
-                
+
                 <div class="vid-control">
                     <div class="play-control">
                         <img src="img/for-back.svg" alt="backward" id="backward">
+                        <img src="img/pause.svg" alt="pause" class="hidepause" id="pause">
                         <img src="img/play.svg" alt="play" id="play">
                         <img src="img/for-back.svg" alt="forward" id="forward">
                     </div>
 
                     <div class="volume-control">
                         <img src="img/volume.svg" alt="volume-svg" id="volume-sign">
+                        <div id="volume-bar">
+                            <div id="volume-knob"></div>
+                        </div>
                     </div>
                 </div>
-                
-                <video autoplay loop>
+
+                <video loop class="video">
                     <source src="img/guitarist_playing_a_guitar (1080p).mp4" type="video/mp4">
                 </video>
 
-                
+
             </div>
 
-            <div class="l-col-start-7 l-col-end-9 addbox">
-                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
-            </div>
-            <div class="l-col-start-9 l-col-end-11 addbox">
-                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
-            </div>
-            <div class="l-col-start-11 l-col-end-13 addbox">
-                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
-            </div>
-            <div class="l-col-start-7 l-col-end-9 addbox2">
-                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
-            </div>
-            <div class="l-col-start-9 l-col-end-11 addbox2">
-                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
+            <div class="l-col-start-7 l-col-end-11 addbox1">
+                <img src="img/plus.svg" alt="plus-sign" class="plus-sign2">
             </div>
             <div class="l-col-start-11 l-col-end-13 addbox2">
                 <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
             </div>
+
+
+            <div class="l-col-start-7 l-col-end-9 addbox3">
+                <img src="img/plus.svg" alt="plus-sign" class="plus-sign">
+            </div>
+            <div class="l-col-start-9 l-col-end-13 addbox4">
+                <img src="img/plus.svg" alt="plus-sign" class="plus-sign2">
+            </div>
+
         </section>
-        
+
         <section class="grid-con">
             <p class="l-col-start-1 l-col-end-3" id="dragheader">Drag Instruments</p>
 
-            <div class="l-col-start-1 l-col-end-4 dragbox">
+            <div class="l-col-start-1 l-col-end-4 dragbox" draggable="true">
                 <h3 class="card-title">80s Drum kit</h3>
                 <img src="img/drumkit.svg" alt="" class="card-svg">
-                <p class="card-des">Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod 
-                    tempor invidunt ut labore</p>
+                <p class="card-des">Electronic crispness meets organic warmth. Shimmering cymbals, blended hits, heavy
+                    reverb.</p>
+
+                <audio src="assets/Drums.mp3" loop></audio>
             </div>
-            <div class="l-col-start-4 l-col-end-7 dragbox">
+            <div class="l-col-start-4 l-col-end-7 dragbox" draggable="true">
                 <h3 class="card-title">Guitar</h3>
-                <img src="img/a-guitar.svg" alt="" class="card-svg">
-                <p class="card-des">Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod 
-                    tempor invidunt ut labore</p>
+                <img src="img/e-guitar.svg" alt="" class="card-svg">
+                <p class="card-des">Versatile, iconic. Shapes melodies, riffs, solos across genres. Loved for its
+                    strings, techniques.</p>
+
+                <audio src="assets/Guitars.mp3" loop></audio>
             </div>
-            <div class="l-col-start-7 l-col-end-10 dragbox">
+            <div class="l-col-start-7 l-col-end-10 dragbox" draggable="true">
                 <h3 class="card-title">Electronic Bass</h3>
                 <img src="img/e-bass.svg" alt="" class="card-svg">
-                <p class="card-des">Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod 
-                    tempor invidunt ut labore</p>
+                <p class="card-des">Electronic, lays down grooves across genres. Loved for its deep tones,
+                    driving rhythms, and versatile techniques.</p>
+
+                <audio src="assets/Bass.mp3" loop></audio>
             </div>
-            <div class="l-col-start-10 l-col-end-13 dragbox">
+            <div class="l-col-start-10 l-col-end-13 dragbox" draggable="true">
                 <h3 class="card-title">Synthesizer </h3>
                 <img src="img/keyboard.svg" alt="" class="card-svg">
-                <p class="card-des">Lorem ipsum dolor sit amet, 
-                    consetetur sadipscing elitr, 
-                    sed diam nonumy eirmod 
-                    tempor invidunt ut labore</p>
+                <p class="card-des">Shapes sounds across genres. Loved for its endless
+                    possibilities, from lush pads to piercing leads.</p>
+
+                <audio src="assets/Synthes.mp3" loop></audio>
             </div>
         </section>
+
     </div>
 
     <script src="js/main.js"></script>

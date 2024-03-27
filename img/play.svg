@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
   <g id="play" transform="translate(-440 -679)">
     <circle id="Ellipse_1" data-name="Ellipse 1" cx="24" cy="24" r="24" transform="translate(440 679)" fill="#eaeaea"/>
-    <path id="Polygon_1" data-name="Polygon 1" d="M11.143,1.429a1,1,0,0,1,1.715,0L23.091,18.486A1,1,0,0,1,22.234,20H1.766a1,1,0,0,1-.857-1.514Z" transform="translate(477 691) rotate(90)" fill="#434343"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M11.143,1.429a1,1,0,0,1,1.715,0L23.091,18.486A1,1,0,0,1,22.234,20H1.766a1,1,0,0,1-.857-1.514Z" transform="translate(476 691) rotate(90)" fill="#434343"/>
   </g>
 </svg>
