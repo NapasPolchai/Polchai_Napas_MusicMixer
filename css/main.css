@@ -85,7 +85,7 @@ button {
     width: 538px;
     height: 96px;
     position: absolute;
-    z-index: 10000;
+    z-index: 2;
     backdrop-filter: blur(5px);
     margin-top: 240px;
     margin-bottom: 16px;
@@ -93,8 +93,8 @@ button {
     margin-right: 16px;
 }
 
-.addbox {
-    background-color: rgba(255, 255, 255, 0.24);
+.addbox1 {
+    background-color: rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     opacity: 1;
     backdrop-filter: blur(30px);
@@ -106,21 +106,56 @@ button {
 }
 
 .addbox2 {
-    background-color: rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     opacity: 1;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
-    margin-top: -160px;
+    margin-top: 32px;
     height: 160px;
     opacity: 100%;
     display: flex;
 }
 
+.addbox3 {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    margin-top: 32px;
+    height: 160px;
+    opacity: 100%;
+    display: flex;
+    margin-top: -161px;
+}
+
+.addbox4 {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    opacity: 1;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    margin-top: 32px;
+    height: 160px;
+    opacity: 100%;
+    display: flex;
+    margin-top: -161px;
+}
+
+
+
+
 .plus-sign {
     justify-content: center;
     padding: 56px;
     width: 170px;
+}
+
+.plus-sign2 {
+    justify-content: center;
+    padding: 56px;
+    width: 370px;
 }
 
 #dragheader {
@@ -145,6 +180,8 @@ button {
 .card-des {
     text-align: center;
     margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .card-svg {
@@ -160,16 +197,65 @@ button {
 #play {
     margin-top: 24px;
     margin-left: 16px;
+    cursor: pointer;
+    z-index: 4;
+    opacity: 1;
+}
+
+#pause {
+    margin-top: 24px;
+    margin-left: 16px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+}
+
+.hidepause {
+    opacity: 0;
+    pointer-events: none;
 }
 
 #backward {
     margin-top: 12px;
     margin-bottom: 12px;
     transform: rotateY(180deg);
+    cursor: pointer;
 }
 
 #forward {
     margin-top: 12px;
     margin-bottom: 12px;
     margin-left: 16px;
+    cursor: pointer;
+}
+
+.volume-control {
+    margin-left: 239px;
+    margin-top: -49px;
+}
+
+#volume-sign {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#volume-bar {
+    position: relative;
+    height: 8px;
+    width: 240px;
+    background-color: #D6D6D6;
+    border-radius: 40px;
+    margin-left: 33px;
+    margin-top: -30px;
+}
+
+#volume-knob {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 0px; /* Adjust for knob position */
+    top: -8px; /* Adjust for knob position */
+    cursor: pointer;
 }
